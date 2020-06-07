@@ -17,16 +17,16 @@
        
 # Sample try/except with user input
 
-rawString = input("Enter a number: ")
-try:
-    inputValue = int(rawString)
-except:
-    inputValue = -1
+# rawString = input("Enter a number: ")
+# try:
+#     inputValue = int(rawString)
+# except:
+#     inputValue = -1
     
-if inputValue > 0:
-    print("Nice work")
-else:
-    print("Not a number")
+# if inputValue > 0:
+#     print("Nice work")
+# else:
+#     print("Not a number")
  
 
 
