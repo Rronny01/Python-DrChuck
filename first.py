@@ -47,11 +47,22 @@
 # print("All done")
          
 
-# Nested loop
+# # Nested loop
 
-x = 42 
-if x > 1:
-    print("More than 1")
-    if x < 100:
-        print("Less than 100")
-print("All done")        
+# x = 42 
+# if x > 1:
+#     print("More than 1")
+#     if x < 100:
+#         print("Less than 100")
+# print("All done")        
+
+# Two way decisions with else:
+
+x = 4 
+
+if x > 2:
+    print("Bigger")
+else:
+    print("Smaller")
+    
+print("All done") 
