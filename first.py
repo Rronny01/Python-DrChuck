@@ -67,17 +67,19 @@
     
 # print("All done") 
 
-# Multi-way conditions elif; checked in order
+# # Multi-way conditions elif; checked in order
 
-x = 60
+# x = 60
 
-if x < 10:
-    print("Smaller")
+# if x < 10:
+#     print("Smaller")
     
-elif x < 70:
-    print("Meduim")
+# elif x < 70:
+#     print("Meduim")
     
-else:
-    print("Bigger")
+# else:
+#     print("Bigger")
 
-print("All done")    
+# print("All done")    
+
+# Try-except 
