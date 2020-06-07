@@ -1,8 +1,20 @@
 # Example of functions; def == define function 1
 
-big = max("Hello world") 
-print(big)
+# big = max("Hello world") 
+# print(big)
 
-tiny = min("Hello world")
-print(tiny) # print (space) blank
+# tiny = min("Hello world")
+# print(tiny) # print (space) blank
 
+# Building our own function
+
+favoriteNumber = input("What is your favorite number: ")
+print("Your favorite number is:", favoriteNumber) 
+
+def myFavoriteNumber(): 
+    n = 5
+    while n > 0:
+        n = n-1
+print("My favorite number is:", myFavoriteNumber()) # n == 0; none
+        
+        
