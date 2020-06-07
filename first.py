@@ -58,11 +58,26 @@
 
 # Two way decisions with else:
 
-x = 4 
+# x = 4 
 
-if x > 2:
-    print("Bigger")
-else:
+# if x > 2:
+#     print("Bigger")
+# else:
+#     print("Smaller")
+    
+# print("All done") 
+
+# Multi-way conditions elif; checked in order
+
+x = 60
+
+if x < 10:
     print("Smaller")
     
-print("All done") 
+elif x < 70:
+    print("Meduim")
+    
+else:
+    print("Bigger")
+
+print("All done")    
