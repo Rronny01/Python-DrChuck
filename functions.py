@@ -20,19 +20,37 @@
         
 # Parameters; with a placeholder/arguments 
 
+# def greet(lang):
+#     if lang == "es":
+#         print("Hola")
+        
+#     elif lang == "fr":
+#         print("Bonjour")       
+        
+#     else:
+#         print("Hello")
+        
+# greet("en")  
+# greet("fr")
+# greet("es")    
+
+# Example of functions; with Return keyword 
+
 def greet(lang):
     if lang == "es":
-        print("Hola")
+        return"Hola"
         
     elif lang == "fr":
-        print("Bonjour")       
+        return "Bonjour"      
         
     else:
-        print("Hello")
+        return "Hello"
         
-greet("en")  
-greet("fr")
-greet("es")      
+print(greet("en"), "Mohammad")  
+print(greet("fr"), "Sylvia")
+print(greet("es"), "Manglia" )    
+
+  
         
         
         
