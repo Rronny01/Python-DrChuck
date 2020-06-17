@@ -29,14 +29,36 @@
     
 # Finishing an iteration with continue
 
-while True:
-    yourInput = input("> ")
-    if yourInput[0] == "#" :
-        continue
-    if yourInput == "done" :
-        break
-    print(yourInput)
-print("Done!")
+# while True:
+#     yourInput = input("> ")
+#     if yourInput[0] == "#" :
+#         continue
+#     if yourInput == "done" :
+#         break
+#     print(yourInput)
+# print("Done!")
+
+# while is indefinite loop
+
+# for is definite loop
+
+# A simple definite loop using for
+
+for i in [5, 4, 3, 2, 1]:
+    print(i)
+print("End of code")
+
+# A definite loop using strings
+
+friends = ["Moh", "Sak", "Mub"] # an  array
+for friend in friends :
+    print("Happy Eid,", friend)
+print("End of code")
+
+
+
+
+
     
       
     
