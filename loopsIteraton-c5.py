@@ -19,13 +19,25 @@
 
 # Breaking out of a loop
 
+# while True:
+#     line = input("> ")
+#     if line == "done" :
+#         break
+#     print(line)
+# print("Done!")    
+    
+    
+# Finishing an iteration with continue
+
 while True:
-    line = input("> ")
-    if line == "done" :
+    yourInput = input("> ")
+    if yourInput[0] == "#" :
+        continue
+    if yourInput == "done" :
         break
-    print(line)
-print("Done!")    
+    print(yourInput)
+print("Done!")
     
-    
+      
     
     
