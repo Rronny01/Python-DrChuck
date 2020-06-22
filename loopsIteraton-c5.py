@@ -68,13 +68,35 @@
 
 # finding the largest input Value
 
-largestSoFar = 1
-print("Before the largest: ", largestSoFar)
-for theNumber in [6, 56, 34, 34, 5, 90, 75]:
-    if theNumber > largestSoFar :
-        largestSoFar = theNumber
-    print("The number:", str(theNumber) + ", " + "Largest so far:", str(largestSoFar))
-print("After the largest: ", largestSoFar)
+# largestSoFar = 1
+# print("Before the largest: ", largestSoFar)
+# for theNumber in [6, 56, 34, 34, 5, 90, 75]:
+#     if theNumber > largestSoFar :
+#         largestSoFar = theNumber
+#     print("The number:", str(theNumber) + ", " + "Largest so far:", str(largestSoFar))
+# print("After the largest: ", largestSoFar)
+
+
+# counting in a loop
+
+# ork = 0
+# print("Before the:", ork)
+# for thing in [9, 12, 34, 45, 43, 52, 90]:
+#     ork = ork + 1
+#     print("This is my num:", str(thing) + ". " + "This is turn #", str(ork))
+# print("After the loop:", str(ork))
+
+# summing in a looping
+
+# starting = 0
+# print("Before the:", starting)
+# for thing in [9, 12, 34, 45, 43, 52, 90]:
+#     starting = starting + thing
+#     print("This is my num:", str(thing) + ". " + "Running total #", str(starting))
+# print("After the loop:", str(starting))
+
+
+
 
     
 
