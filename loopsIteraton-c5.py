@@ -44,16 +44,26 @@
 
 # A simple definite loop using for
 
-for i in [5, 4, 3, 2, 1]:
-    print(i)
-print("End of code")
+# for i in [5, 4, 3, 2, 1]:
+#     print(i)
+# print("End of code")
 
 # A definite loop using strings
 
-friends = ["Moh", "Sak", "Mub"] # an  array
-for friend in friends :
-    print("Happy Eid,", friend)
-print("End of code")
+# friends = ["Moh", "Sak", "Mub"] # an  array
+# for friend in friends :
+#     print("Happy Eid,", friend)
+# print("End of code")
+
+
+# loop idioms
+
+# Looping through a set
+
+print("Before")
+for thing in [9, 12, 13, 32, 45, 56, 67]:
+    print(thing)
+print("After")
 
 
 
