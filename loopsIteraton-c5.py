@@ -60,10 +60,23 @@
 
 # Looping through a set
 
-print("Before")
-for thing in [9, 12, 13, 32, 45, 56, 67]:
-    print(thing)
-print("After")
+# print("Before")
+# for thing in [9, 12, 13, 32, 45, 56, 67]:
+#     print(thing)
+# print("After")
+
+
+# finding the largest input Value
+
+largestSoFar = 1
+print("Before the largest: ", largestSoFar)
+for theNumber in [6, 56, 34, 34, 5, 90, 75]:
+    if theNumber > largestSoFar :
+        largestSoFar = theNumber
+    print("The number:", str(theNumber) + ", " + "Largest so far:", str(largestSoFar))
+print("After the largest: ", largestSoFar)
+
+    
 
 
 
