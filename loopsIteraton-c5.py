@@ -96,16 +96,28 @@
 # print("After the loop:", str(starting))
 
 
-# finding average in a looping
-count = 0
-sum = 0
+## finding average in a looping
+# count = 0
+# sum = 0
 
-print("At the beginning count:", str(count) + "; " + "Sum:", str(sum))
-for value in [4, 56, 34, 34, 65, 49]:
-    count = count + 1
-    sum = sum + value
-    print("Count:", str(count) + ", " + "Value:", str(value) + ", " + "Sum:", str(sum) )
-print("At the end count:", str(count) + "; " + "Sum:", str(sum) + ", " + "Average:", str(sum/count))
+# print("At the beginning count:", str(count) + "; " + "Sum:", str(sum))
+# for value in [4, 56, 34, 34, 65, 49]:
+#     count = count + 1
+#     sum = sum + value
+#     print("Count:", str(count) + ", " + "Value:", str(value) + ", " + "Sum:", str(sum) )
+# print("At the end count:", str(count) + "; " + "Sum:", str(sum) + ", " + "Average:", str(sum/count))
+
+
+# Filtering in a looping
+
+print("Starting loop...")
+for value in [7, 8, 56, 3, 45, 19, 84, 15]:
+    if value > 20:
+        print("Large number", value)
+print("End of loop")
+
+
+
 
 
 
