@@ -108,13 +108,32 @@
 # print("At the end count:", str(count) + "; " + "Sum:", str(sum) + ", " + "Average:", str(sum/count))
 
 
-# Filtering in a looping
+# # Filtering in a looping
 
-print("Starting loop...")
-for value in [7, 8, 56, 3, 45, 19, 84, 15]:
-    if value > 20:
-        print("Large number", value)
-print("End of loop")
+# print("Starting loop...")
+# for value in [7, 8, 56, 3, 45, 19, 84, 15]:
+#     if value > 20:
+#         print("Large number", value)
+# print("End of loop")
+
+# Search using a boolean variable
+
+found = False
+print("Before starting the loop:", found)
+for value in [6, 45, 34, 3, 34, 23, 40]:
+    if value == 3:
+        found = True
+        print(found, value)
+        break
+    print(found, value)
+print("End of loop", found)
+
+    
+        
+        
+    
+
+
 
 
 
