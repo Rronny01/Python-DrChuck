@@ -38,7 +38,7 @@
 
 def greet(lang):
     if lang == "es":
-        return"Hola"
+        return "Hola"
         
     elif lang == "fr":
         return "Bonjour"      
